@@ -1,6 +1,7 @@
 <center>
 
 <h1> Challenge Alura-ONE: Encriptador de texto </h1>
+<h1> Grupo 6 </h1>
 
 </center>
 
