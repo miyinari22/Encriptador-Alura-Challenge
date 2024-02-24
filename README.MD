@@ -40,9 +40,8 @@ Puedes probar el encriptador desde [aqui]()
 **Desencriptación de Texto**
 ![Función Copiar Texto](funcionamiento/desencriptar1.gif)
 
-**Advertencia de uso de caracteres no validos**
+**Advertencia de caracteres no validos**
 ![Advertencia](funcionamiento/advertencia.png)
-
 
 ## Acerca de
 
