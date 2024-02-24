@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Encriptador y Desencriptador</title>
+        <link rel="icon" href="imagenes/logo.png">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <div>
+                    <img id="logo" src="imagenes/encriptacion.png" alt="Miyi Nari Logo">
+                </div>
+                <h1 id="text">Encriptador y Desencriptador de Texto</h1>
+            </div>
+        </header>
+
+        <main>
+            <form class="left-text">
+                <textarea class="input-text" cols="31" rows="3" placeholder="Ingrese su texto aquí." onkeypress="return validar(event)" required></textarea>
+
+                <fieldset class="advertencia">
+                    <img id="icon" src="imagenes/warning.png" alt="¡Advertencia!">
+                    <p>Solo se aceptan letras minúsculas. No se aceptan acentos, caracteres especiales o números ( •̯́ ^ •̯̀).</p>
+                </fieldset>
+
+                <fieldset class="buttons">
+                    <input class="encriptar" type="button" type="submit" value="Encriptar" onclick="encryptedText()" title="Da click aquí encriptar tu texto">
+                    <input class="desencriptar" type="button" type="submit" value="Desencriptar" onclick="decryptedText()" title="Da click aquí para desencriptar tu texto">
+                </fieldset>
+            </form>
+
+            <div class="right-text">
+                <div class="consejo">
+                    <img id="idk" src="imagenes/idk.png" alt="No se encuentra texto alguno ╮ (. ❛ ᴗ ❛.) ╭">
+
+                    <div class="texto">
+                        <h2>No se ha encontrado texto para encriptar ╮ (. ❛ ᴗ ❛.) ╭</h2>
+                        <p>Ingresa una palabra o frase que desees encriptar ( ｡•ㅅ•｡)~✧</p>
+                    </div>
+                </div>
+
+                <form class="mensaje">
+                    <textarea class="output-text" cols="31" rows="3" readonly></textarea>
+                    <input class="copiar" type="button" value="Copiar Texto" title="Da clic aquí para copiar el texto" onclick="copy()">
+                </form>
+            </div>
+        </main>
+
+        <footer class="foot">
+            <a href="https://github.com/miyinari22"><img src="imagenes/github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/octavio-augusto-martinez-reyes-3232882aa/"><img src="imagenes/linkedin.png" alt="LinkedIn"></a>
+        </footer>
+
+        <script src="logic.js"></script>
+    </body>
+</html>
