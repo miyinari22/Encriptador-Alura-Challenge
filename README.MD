@@ -30,18 +30,16 @@ Puedes probar el encriptador desde [aqui]()
 
 ## Interfaz y funcionamiento.
 **Encriptación de Texto**
-
 ![Función Encriptar](funcionamiento/encriptacion1.gif)
 
 **Función Copiar Texto**
-
 ![Función Copiar Texto](funcionamiento/copiar1.gif)
 
 **Desencriptación de Texto**
 ![Función Copiar Texto](funcionamiento/desencriptar1.gif)
 
 **Advertencia de caracteres no validos**
-![Advertencia](funcionamiento/advertencia.png)
+![Función Advertencia](funcionamiento/advertencia.png)
 
 ## Acerca de
 
